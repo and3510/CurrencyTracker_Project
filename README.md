@@ -72,8 +72,42 @@ Consegui fazer a aplicação, apesar dos problemas
 
 ![alt text](<images/Screenshot from 2025-01-07 18-27-00.png>)
 
-<div>
+</div>
+
+
+### Imanges para dispositivos moveis
+
+
+<div align="center">
+
+![asda](images/image.png)
+
+![alt text](<images/image copy.png>)
+
+</div>
+
+
+
 
 ## Como_Usar
 
+1. Faça o git clone do repositorio:
+
+`https://github.com/and3510/CurrencyTracker_Project.git`
+
+2. Vai na pasta:
+
+`cd CurrencyTracker_Project`
+
+3. Instale o npm:
+
+`npm install`
+
+4. Agora é só rodar:
+
+`npm run dev`
+
+
 ## Conclusao
+
+O projeto **CurrencyTrainer** foi uma plataforma de monitoramento de criptomoedas em tempo real, permitindo a exibição de dados como preço, volume e variação de mercado. Superando desafios na integração com a API, a aplicação oferece uma interface responsiva e moderna. Utilizando **React**, **TypeScript** e **Vite**, o projeto atendeu aos requisitos de usabilidade e eficiência. Foi uma excelente oportunidade de aprendizado e desenvolvimento de habilidades em tecnologias web e integração de APIs.

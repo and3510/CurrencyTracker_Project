@@ -1,51 +1,68 @@
-# React + TypeScript + Vite
+<h1 align="center">CurrencyTrainer: Plataforma de visualização em tempo real para preços de criptomoedas</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center" >
 
-Currently, two official plugins are available:
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScripts](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/VITE-%234747c6?style=for-the-badge&logo=vite&logoColor=yellow&logoSize=100px)
+![Css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+## Sumário
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* [Descrição](#descrição)
+* [Requisitos](#requisitos)
+* [Ferramentas](#ferramentas)
+* [Dificuldades](#dificuldades)
+* [Resultados](#resultados)
+* [Como_Usar](#como_usar)
+* [Conclusão](#conclusao)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Descrição
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Plataforma web para monitoramento de criptomoedas em tempo real, oferecendo informações detalhadas como nome da moeda, valor de mercado, preço atual, volume de transações e variação percentual nas últimas 24 horas. O sistema inclui uma barra de busca para localizar rapidamente moedas específicas e exibe dados organizados em uma tabela de fácil leitura. Com uma interface moderna e tema escuro, o projeto é ideal para traders, investidores e entusiastas que desejam acompanhar o desempenho e as tendências do mercado de criptomoedas de forma prática e eficiente.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# CurrencyTracker_Project
+## Requisitos
+
+- [x] **Exibição de criptomoedas**:
+   - Listar informações sobre criptomoedas, incluindo nome, símbolo, valor de mercado, preço atual, volume de transações e variação percentual nas últimas 24 horas.
+   - Mostrar variações positivas ou negativas com destaque (cores verde para alta e vermelho para queda).
+
+- [x] **Barra de busca**:
+   - Permitir que o usuário pesquise criptomoedas pelo nome ou símbolo.
+   - Atualizar a tabela dinamicamente com os resultados da busca.
+
+- [x] **Atualização de dados em tempo real**:
+   - Buscar dados atualizados regularmente usando APIs de mercado de criptomoedas.
+
+- [x] **Organização em tabela**:
+   - Exibir informações organizadas em colunas com cabeçalhos claros: Moeda, Valor de Mercado, Preço, Volume, Mudança 24h.
+
+- [x] **Responsividade**:
+   - Adaptar a interface para diferentes tamanhos de tela (desktop, tablet, mobile).
+
+- [x] **Tema escuro**:
+   - Implementar um layout com tema escuro para facilitar a leitura e oferecer um visual moderno.
+
+
+## Ferramentas
+
+**React**: Biblioteca JavaScript para criar interfaces de usuário reutilizáveis e dinâmicas.  
+**JavaScript**: Linguagem de programação para páginas web interativas e dinâmicas.  
+**TypeScript**: Superconjunto de JavaScript com tipagem estática para maior segurança.  
+**Vite**: Ferramenta de build rápida e moderna para projetos front-end com HMR.  
+**CSS3**: Linguagem para estilizar e formatar elementos visuais de páginas web.  
+
+## Dificuldades
+
+
+## Resultados
+
+## Como_Usar
+
+## Conclusao

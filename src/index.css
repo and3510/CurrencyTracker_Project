@@ -1,0 +1,27 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
+}
+
+
+body {
+  background-color: #18171c;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+button {
+  cursor: pointer;
+  border: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

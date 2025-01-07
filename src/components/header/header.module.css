@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    max-width: 1080px;
+  }
+
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

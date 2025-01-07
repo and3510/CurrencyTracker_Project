@@ -60,8 +60,19 @@ Plataforma web para monitoramento de criptomoedas em tempo real, oferecendo info
 
 ## Dificuldades
 
+Tive dificuldades na hora de configurar a integração com a API, principalmente no tratamento das respostas para garantir que os dados fossem exibidos corretamente no site.
 
 ## Resultados
+
+Consegui fazer a aplicação, apesar dos problemas
+
+<div align="center">
+
+![alt text](<images/Screenshot from 2025-01-07 18-26-49.png>)
+
+![alt text](<images/Screenshot from 2025-01-07 18-27-00.png>)
+
+<div>
 
 ## Como_Usar
 
